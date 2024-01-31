@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog</title>
+    <link rel="icon" href="https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Dog-Emoji.png"
+          type="image/x-icon">
+</head>
+<style>
+*{
+    margin: 0;
+}
+body{
+    background-color: gainsboro;
+}
+ h1{
+    text-align: center;
+    margin:  15px 0 ;
+ }
+ #image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 60vh;
+    width: 60%;
+    max-height: 500px;
+    max-width: 600px;
+    box-shadow: 0 0 40px 0px rgba(175, 91, 91, 0.75);
+ }
+#btn{
+    font-size: 1rem;
+    padding: 10px 10px;
+   background-color: #07fb2f;
+   border: none;
+   border-radius: 10px;
+}
+.button{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+</style>
+<body>
+    
+    <div class="h">
+        <h1>Random Dog Images</h1>
+    </div>
+    <div id="image">
+        This Uses Random Dog Api to Get Image 
+    </div>
+    <div class="button">
+        <button id="btn">Get Dog</button>
+    </div>
+    
+    <script src="dog.js"></script>
+</body>
+</html>
